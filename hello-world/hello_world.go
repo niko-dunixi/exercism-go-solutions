@@ -1,5 +1,7 @@
 package greeting
 
+// HelloWorld will de-xor cypher a byte array and return "Hello, World!"
+//	see: https://en.wikipedia.org/wiki/XOR_cipher
 func HelloWorld() string {
 	// Create and initialize a byte array
 	raw_bits := []byte{54, 27, 18, 18, 17, 82, 94, 41, 17, 12, 18, 26, 95}
